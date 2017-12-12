@@ -21,6 +21,7 @@
         <mockito.version>2.0.2-beta</mockito.version>
         <assertj.version>3.8.0</assertj.version>
         <jsonassert.version>1.5.0</jsonassert.version>
+        <swagger.version>2.2.2</swagger.version>
     </properties>
 
     <dependencies>
@@ -63,6 +64,16 @@
             <artifactId>jsonassert</artifactId>
             <version>${jsonassert.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
         </dependency>
 
         <dependency>
